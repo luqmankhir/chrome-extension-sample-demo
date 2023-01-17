@@ -1,0 +1,11 @@
+{
+    "name": "Facebook Spam Detection Tool",
+    "description": "This tool will automatically block the spam that appeared in 
+                    Facebook based on the keyword that had been assigned by the user",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "logo.png"
+    }
+  }

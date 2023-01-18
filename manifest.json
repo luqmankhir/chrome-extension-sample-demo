@@ -1,11 +1,15 @@
 {
     "name": "Facebook Spam Detection Tool",
-    "description": "This tool will automatically block the spam that appeared in 
-                    Facebook based on the keyword that had been assigned by the user",
-    "version": "1.0",
+    "description": "This tool will automatically block the spam that appeared in Facebook based on the keyword that had been assigned by the user",
     "manifest_version": 3,
     "action": {
-      "default_popup": "hello.html",
+      "default_popup": "yolo.html",
       "default_icon": "logo.png"
-    }
-  }
+    },
+    "icons" :{
+        "64" : "logo.png"
+    },
+    "version" :"0.1.0",
+    "host_permissions": ["http://localhost/*"],
+    "optional_host_permissions": ["*://*/*"]
+}
